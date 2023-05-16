@@ -1,0 +1,5 @@
+site_name: Locally generated
+nav:
+  - Home: index.md
+plugins:
+  - techdocs-core
