@@ -1,5 +1,5 @@
 # Hello from locally generated docs
 
-v1.0
+v2.0
 
 👋
