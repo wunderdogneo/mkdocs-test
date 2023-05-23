@@ -1,5 +1,6 @@
 site_name: Locally generated
 nav:
   - Home: index.md
+  - Foo: foo.md
 plugins:
   - techdocs-core
