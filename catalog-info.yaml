@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "techdocs-test-1"
+  description: "Techdocs editing test"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    pg.com/techdocs-versioned: enabled
+    pg.com/techdocs-versions: |
+      latest: url:https://github.com/wunderdogneo/mkdocs-test/tree/main
+      v1.0: url:https://github.com/wunderdogneo/mkdocs-test/tree/v1.0
+      v2.0: url:https://github.com/wunderdogneo/mkdocs-test/tree/v2.0
+  tags:
+    - techdocs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "test123"
